@@ -7,7 +7,6 @@
     "scripts": {
         "build": "tsc",
         "test": "jest",
-        "publish": "npm publish --access public",
         "prepublishOnly": "npm version patch"
     },
     "keywords": [
