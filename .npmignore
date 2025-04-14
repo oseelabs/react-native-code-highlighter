@@ -5,4 +5,5 @@ src/
 .gitignore
 .editorConfig
 
-package-lock.json
+# package-lock.json
+tsconfig.json
