@@ -6,7 +6,9 @@
     "types": "dist/index.d.ts",
     "scripts": {
         "build": "tsc",
-        "test": "jest"
+        "test": "jest",
+        "publish": "npm publish --access public",
+        "prepublishOnly": "npm version patch && npm run build && npm login"
     },
     "keywords": [
         "react-native",
